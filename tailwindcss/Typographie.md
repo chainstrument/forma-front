@@ -40,6 +40,54 @@ pour l'appliquer de manière conditionnelle
 <p class="text-2xl ...">The quick brown fox ...</p>
 ```
 
-## epaisseur 
+## line-height
 
-## 
+- leading-3
+- leading-4
+- leading-5
+- leading-x 
+
+``` html
+<p class="leading-3">The quick brown fox ...</p>
+
+<p class="leading-[3rem]">The quick brown fox ...</p>
+
+
+```
+
+
+## list style image
+
+```html	
+<ul class="list-image-[url(checkmark.png)] ...">
+  <li>5 cups chopped Porcini mushrooms</li>
+  <!-- ... -->
+</ul>
+```
+### hover 
+```html
+<ul class="list-image-none hover:list-image-[url(checkmark-hover.png)] ...">
+  <li>5 cups chopped Porcini mushrooms</li>
+  <!-- ... -->
+</ul>
+```
+
+## list style type
+
+```html
+<ul class="list-disc">
+  <li>Now this is a story all about how, my life got flipped-turned upside down</li>
+  <!-- ... -->
+</ul>
+
+<ol class="list-decimal">
+  <li>Now this is a story all about how, my life got flipped-turned upside down</li>
+  <!-- ... -->
+</ol>
+
+<ul class="list-none">
+  <li>Now this is a story all about how, my life got flipped-turned upside down</li>
+  <!-- ... -->
+</ul>
+```
+
